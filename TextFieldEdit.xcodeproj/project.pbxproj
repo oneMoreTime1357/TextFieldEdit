@@ -15,6 +15,7 @@
 		5C75263D1D1FA6FE00A7E43F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C75263B1D1FA6FE00A7E43F /* LaunchScreen.storyboard */; };
 		5C7526481D1FA6FE00A7E43F /* TextFieldEditTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C7526471D1FA6FE00A7E43F /* TextFieldEditTests.m */; };
 		5C7526531D1FA6FE00A7E43F /* TextFieldEditUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C7526521D1FA6FE00A7E43F /* TextFieldEditUITests.m */; };
+		5C7526631D1FA79700A7E43F /* CustomTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C7526621D1FA79700A7E43F /* CustomTextField.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		5C75264E1D1FA6FE00A7E43F /* TextFieldEditUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextFieldEditUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C7526521D1FA6FE00A7E43F /* TextFieldEditUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextFieldEditUITests.m; sourceTree = "<group>"; };
 		5C7526541D1FA6FE00A7E43F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C7526611D1FA79700A7E43F /* CustomTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTextField.h; sourceTree = "<group>"; };
+		5C7526621D1FA79700A7E43F /* CustomTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTextField.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,7 @@
 				5C7526311D1FA6FE00A7E43F /* AppDelegate.m */,
 				5C7526331D1FA6FE00A7E43F /* ViewController.h */,
 				5C7526341D1FA6FE00A7E43F /* ViewController.m */,
+				5C7526601D1FA74400A7E43F /* CustomTetField */,
 				5C7526361D1FA6FE00A7E43F /* Main.storyboard */,
 				5C7526391D1FA6FE00A7E43F /* Assets.xcassets */,
 				5C75263B1D1FA6FE00A7E43F /* LaunchScreen.storyboard */,
@@ -138,6 +142,15 @@
 				5C7526541D1FA6FE00A7E43F /* Info.plist */,
 			);
 			path = TextFieldEditUITests;
+			sourceTree = "<group>";
+		};
+		5C7526601D1FA74400A7E43F /* CustomTetField */ = {
+			isa = PBXGroup;
+			children = (
+				5C7526611D1FA79700A7E43F /* CustomTextField.h */,
+				5C7526621D1FA79700A7E43F /* CustomTextField.m */,
+			);
+			name = CustomTetField;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,6 +283,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C7526631D1FA79700A7E43F /* CustomTextField.m in Sources */,
 				5C7526351D1FA6FE00A7E43F /* ViewController.m in Sources */,
 				5C7526321D1FA6FE00A7E43F /* AppDelegate.m in Sources */,
 				5C75262F1D1FA6FE00A7E43F /* main.m in Sources */,
