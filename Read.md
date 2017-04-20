@@ -8,3 +8,5 @@ rebase test
 remote rebase 
 
 commit rebase set
+
+after rebase 
